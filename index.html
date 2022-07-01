@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title></title>
     <script src="main.js"></script>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <hr/>
+    <h1>Rock. Paper. Scissors!</h1>
+    <hr />
+    <p>Enter "Rock", "Paper", or "Scissors" and see who wins!</p>
+    <!-- <form> -->
+    <label for="user1">User #1:</label><br />
+    <input
+      type="text"
+      id="user1"
+      name="user1"
+      onkeyup="updateHandOne(this)"
+    /><br />
+    <label for="user2">User #2:</label><br />
+    <input type="text" id="user2" name="user2" onkeyup="updateHandTwo(this)" />
+    <!-- </form> -->
     <div id="display-element"></div>
-    <button onclick="displayDate()">Click Me</button>
-    <hr/>
+    <button onclick="rockPaperScissors(handOne, handTwo)">Click Me</button>
+    <hr />
+    <div id="winner-is"></div>
+    <!-- <script src="main.js"></script> -->
   </body>
 </html>
