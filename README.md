@@ -11,7 +11,7 @@
 1. Fork and Clone [Rock, Paper, Scissors Repo](https://github.com/AustinCodingAcademy/JS211_RockPaperScissorsProject.git)
 1. Ensure you have installed all dependencies/packages: `npm i`
 1. Practice running the unit tests for the program:
-    * `npm test main.js`
+   - `npm test main.js`
 1. Use a whiteboard to find a solution to the Rock, Paper, Scissors program
 1. Translate the broad ideas to pseudo code
 1. Convert the pseudo code to real JavaScript Code
@@ -20,8 +20,9 @@
 1. Play the game with the command: `node main.js`
 1. Achieve green checks for each of your unit tests.
 
-******
-******
+---
+
+---
 
 # Rock, Paper, Scissors (R.P.S) Overview
 
@@ -35,26 +36,28 @@ Build a function that will take in an input from a user then another input from 
 
 #### Code Planning R.P.S.
 
-1. User1 input of rock, paper, or scissors.
-1. User2 input of rock, paper, or scissors.
-1. Compare User1 input to User2 input.
-1. If User1 input is 'rock' and User2 input is 'scissors', User1 wins.
-1. If User1 input is 'rock' and User2 input is 'paper', User2 wins.
-1. If User1 input is 'rock' and User2 input is 'rock', it's a tie.
-1. If User1 input is 'paper' and User2 input is 'rock', User1 wins.
-1. If User1 input is 'paper' and User2 input is 'scissors', User2 wins.
-1. If User1 input is 'paper' and User2 input is 'paper', it's a tie.
-1. If User1 input is 'scissors' and User2 input is 'paper', User1 wins.
-1. If User1 input is 'scissors' and User2 input is 'rock', User2 wins.
-1. If User1 input is 'scissors' and User2 input is 'scissors', it's a tie.
+<!-- 1. User1 input of rock, paper, or scissors. -->
+<!-- 1. User2 input of rock, paper, or scissors. -->
+<!-- 1. Compare User1 input to User2 input. -->
 
-*Can you think of a simpler way?*
+<!-- 1. If User1 input is 'rock' and User2 input is 'scissors', User1 wins. -->
+
+1. If User1 input is 'rock' and User2 input is 'paper', User2 wins.
+   <!-- 1. If User1 input is 'rock' and User2 input is 'rock', it's a tie. -->
+   <!-- 1. If User1 input is 'paper' and User2 input is 'rock', User1 wins. -->
+1. If User1 input is 'paper' and User2 input is 'scissors', User2 wins.
+   <!-- 1. If User1 input is 'paper' and User2 input is 'paper', it's a tie. -->
+   <!-- 1. If User1 input is 'scissors' and User2 input is 'paper', User1 wins. -->
+1. If User1 input is 'scissors' and User2 input is 'rock', User2 wins.
+<!-- 1. If User1 input is 'scissors' and User2 input is 'scissors', it's a tie. -->
+
+_Can you think of a simpler way?_
 
 ### Follow-Up Video - R.P.S.
 
 ### [Repo Overview](https://player.vimeo.com/video/377156267)
 
-******
+---
 
 #### Push Yourself Further
 
@@ -71,7 +74,7 @@ Build a function that will take in an input from a user then another input from 
 1. Push yourself further
 1. **Clone, setup, testing, and running instructions for all projects is below**
 
-******
+---
 
 ## Cloning Your Project
 
@@ -79,15 +82,15 @@ Build a function that will take in an input from a user then another input from 
 1. Copy HTTPS URL from your forked repository
 1. In your terminal/gitBash/CommandPrompt navigate (using `cd`) into a directory where you want to start keeping your repositories. (`/jsDevFolder`)
 1. Clone your new repository by typing `git clone <forked clone URL>` (the HTTPS
-URL you copied above)
-  ![Forking a repository](https://docs.google.com/drawings/d/1tYsLHaLo8JRdp0xC1EZrAo0o9Wvv4S5AD937cokVOBk/pub?w=960&h=720)
+   URL you copied above)
+   ![Forking a repository](https://docs.google.com/drawings/d/1tYsLHaLo8JRdp0xC1EZrAo0o9Wvv4S5AD937cokVOBk/pub?w=960&h=720)
 1. Now go into the new directory by using `cd project-repo`
 
 1. Add the base repository as an upstream
-    `git remote add upstream https://github.com/AustinCodingAcademy/<PROJECT-REPO>.git`
+   `git remote add upstream https://github.com/AustinCodingAcademy/<PROJECT-REPO>.git`
 
 1. Check the configuration of your remotes with `git remote -v`, it should look
-very similar to this (except it'll be YOUR username)
+   very similar to this (except it'll be YOUR username)
 
 ```bash
 $ git remote -v
@@ -101,26 +104,20 @@ upstream    git@github.com:AustinCodingAcademy/javascript-workbook.git (push)
 ### Setup
 
 1. From your project directory, run `npm i` to tell NPM to install all the
-node modules we use in this class (see `package.json`)
+   node modules we use in this class (see `package.json`)
 1. Use your textEditor (VS Code) to change your files.
 1. When you're finished `git status`, stage your file `git add .`, commit your changes `git commit -m "functions working"`, and push to
-GitHub `git push`
-    ```bash
-    git status
-    git add .
-    git commit -m "Initial Commit"
-    git push origin gh-pages
-    ```
-
+   GitHub `git push`
+   `bash git status git add . git commit -m "Initial Commit" git push origin gh-pages `
 
 1. Now go to your forked repository on GitHub (at
-  https://github.com/your-username/javascript-workbook). A little yellow box
-  should have popped up asking you to make a Pull Request. Click to review.
+   https://github.com/your-username/javascript-workbook). A little yellow box
+   should have popped up asking you to make a Pull Request. Click to review.
 
 1. Click "Create Pull Request"
 
-1. Every time you make a change *and push to GitHub*, this PR will automatically
-update. No need to do it more than once.
+1. Every time you make a change _and push to GitHub_, this PR will automatically
+   update. No need to do it more than once.
 
 ### Running the apps
 
@@ -149,12 +146,10 @@ Simply run `npm run lint`
 #### Get latest workbook updates
 
 1. To get the latest code/homework/test updates, be sure to have a "clean
-working directory" by committing or removing all of your changes. You check for
-a "clean working environment" by running `git status` and making sure no files
-show up.
+   working directory" by committing or removing all of your changes. You check for
+   a "clean working environment" by running `git status` and making sure no files
+   show up.
 
 1. Run `git pull upstream gh-pages`
 
 ![Contributing workflow](https://docs.google.com/drawings/d/1WeKQxOHgPKfwjy_eKtlJO62Fu4XTCWFeqkAh1oIqICM/pub?w=960&h=720)
-
-
